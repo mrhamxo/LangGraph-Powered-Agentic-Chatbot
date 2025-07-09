@@ -1,0 +1,18 @@
+AI Agent Development Phases
+
+Phase 1: Create AI Agent
+
+* Step 1: Configure API keys for Groq and Tavily using .env
+* Step 2: Initialize selected LLM and optional tools (like web search)
+* Step 3: Build the AI agent logic with dynamic model and tool selection
+
+Phase 2: Set Up Backend with FastAPI
+
+* Step 1: Define request schema using Pydantic model for validation
+* Step 2: Create API endpoint to process incoming requests and call the agent
+* Step 3: Run FastAPI server and explore via Swagger UI at /docs
+
+Phase 3: Set Up Frontend (Streamlit)
+
+* Step 1: Design interactive UI to select model, provider, system prompt, and enter query
+* Step 2: Connect to backend via API and display agent response with proper UI/UX feedback
