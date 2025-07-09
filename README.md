@@ -14,15 +14,17 @@ A production-ready, agentic AI chatbot powered by LangGraph, FastAPI, and Stream
 ✅ Error handling and loading spinners  
 ✅ Clean, extensible code structure  
 
-## 📁 Project Structure
+## 📁 Project 
 
-LangAgentUI/
-├── app.py                 # Streamlit UI
-├── backend.py             # FastAPI backend
-├── ai_agent.py            # LLM and tool invocation logic
-├── prompt_library.py      # Modular prompt templates
-├── requirements.txt       # Python dependencies
-└── .env                   # API keys (Groq, OpenAI Tavily)
+```
+LangGraph Agent Chatbot/
+├── app.py               # Streamlit frontend UI
+├── backend.py           # FastAPI backend API
+├── ai_agent.py          # Core logic for LLM and tool integration
+├── prompt_library.py    # Modular prompt templates (agent presets)
+├── requirements.txt     # Python dependencies
+└── .env                 # Environment variables (API keys for Groq, OpenAI, Tavily)
+```
 
 ## 📸 App Screenshots
 
