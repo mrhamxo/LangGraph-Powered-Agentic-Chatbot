@@ -89,3 +89,13 @@ if st.button("🚀 Ask Agent!"):
                     st.error(f"⚠️ API returned status code {response.status_code}")
             except Exception as e:
                 st.error(f"🔌 Error contacting backend: {e}")
+
+# Footer (place this at the very end of your app.py)
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center; font-size: 14px; color: gray;'>"
+    "🔧 Built with ❤️ using <b>LangGraph</b>, <b>LLM(Groq & OpenAI)</b>, <b>Streamlit</b> & <b>FastAPI</b> | "
+    "<a href='https://github.com/mrhamxo' target='_blank'>My GitHub Profile</a>"
+    "</div>",
+    unsafe_allow_html=True
+)
